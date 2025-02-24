@@ -3,8 +3,8 @@ using namespace std;
 class Myclass{
     int *ptr;
     public:
-    Myclass(int x){
-        ptr = new int(x);
+    Myclass(int x):ptr(new int(x)){
+        // ptr = new int(x);
         cout << "Constructor is called "<<ptr <<':' <<x << endl;
     }
     ~Myclass(){
