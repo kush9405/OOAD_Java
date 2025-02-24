@@ -22,6 +22,8 @@ public:
         this->language = language;
     }
     void display() override {
+        // display();
+        Engineer::display();
         cout << name << " is working as a software engineer with anf experience of " << experience << " years and codes in " << language << endl;
     }
     void code() {
