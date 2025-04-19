@@ -1,9 +1,1 @@
 *.class       # Ignore all .class files
-*             # Ignore files without extensions
-!*/           # Do not ignore directories
-!*.cpp        # Do not ignore .cpp files
-!*.java       # Do not ignore .java files (if needed)
-!.json
-!.DS_Store
-!.xml
-!.jsp
