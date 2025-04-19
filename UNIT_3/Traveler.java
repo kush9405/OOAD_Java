@@ -17,6 +17,4 @@ class Traveler {
         traveler.setV(new Bike()); // Inject Bike dependency
         traveler.startJourney(); // Start journey by Bike
     }
- 
-    
 }
