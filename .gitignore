@@ -1,3 +1,4 @@
-*.class
-/*
-
+*.class       # Ignore all .class files
+*             # Ignore files without extensions
+!*/           # Do not ignore directories
+!*.cpp        # Do not ignore .cpp files (or other extensions you want to keep)
