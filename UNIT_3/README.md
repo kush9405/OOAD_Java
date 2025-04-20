@@ -27,3 +27,13 @@ GRASP Principles Applied
 javac *.java
 java Main
 ```
+**Expected Output**
+```bash
+Alice (User ID: 1)
+Kushagra (User ID: 2)
+1984 by George Orwell (Available)
+To Kill a Mockingbird by Harper Lee (Available)
+Book borrowed successfully!
+1984 by George Orwell (Borrowed)
+To Kill a Mockingbird by Harper Lee (Available)
+```
