@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        Library library = new Library();
+        LibraryController controller = new LibraryController(library);
+
+        library.addBook(new Book("1984", "George Orwell"));
+        library.addBook(new Book("To Kill a Mockingbird", "Harper Lee"));
+        library.registerUser(new User("Alice", 1));
+
+        library.showBooks();
+        controller.borrowBook("1984");
+        library.showBooks();
+    }
+}
