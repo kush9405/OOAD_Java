@@ -13,3 +13,9 @@ javac Traveler.java Vehicle.java
 
 java Traveler
 ```
+
+**creating a simple system using GRASP**
+```bash
+javac *.java
+java Main
+```
