@@ -6,7 +6,9 @@ public class Main {
         library.addBook(new Book("1984", "George Orwell"));
         library.addBook(new Book("To Kill a Mockingbird", "Harper Lee"));
         library.registerUser(new User("Alice", 1));
+        library.registerUser(new User("Kushagra", 2));
 
+        library.showUsers();
         library.showBooks();
         controller.borrowBook("1984");
         library.showBooks();

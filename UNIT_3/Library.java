@@ -17,6 +17,11 @@ public class Library {
             System.out.println(book);
         }
     }
+    public void showUsers(){
+        for (User user:users){
+            System.out.println(user);
+        }
+    }
 
     // Getter for books
     public List<Book> getBooks() {

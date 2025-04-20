@@ -13,4 +13,9 @@ public class User {
     {
       return userId; 
     }
+
+    @Override
+    public String toString() {
+        return name + " (User ID: " + userId + ")";
+    }
 }
