@@ -42,3 +42,73 @@ Book borrowed successfully!
 1984 by George Orwell (Borrowed)
 To Kill a Mockingbird by Harper Lee (Available)
 ```
+
+**Single  Responsiblity Principle**
+```bash
+javac BookManagement.java
+java BookManagement
+```
+**Expected Output**
+```bash
+Book found! ID: 10
+Book doesn't exist
+```
+
+**Open Closed Principle**
+
+```bash
+javac LibrarySystem.java
+java LibrarySystem
+```
+
+**Expected Output**
+```bash
+Book ID: 10
+Book ID: 100
+Book ID: 55
+```
+
+**Liskov Substitution Principle**
+
+```bash
+javac LSP.java
+java LSP
+```
+
+**Expected Output**
+```bash
+This bird is eating.
+The duck is flying.
+This bird is eating.
+The penguin is swimming.
+```
+
+**Interface Segregation Principle**
+
+```bash
+javac Isp.java
+java Isp
+```
+
+**Expected Output**
+```bash
+Sparrow is flying.
+Sparrow is walking.
+Penguin is walking.
+Penguin is swimming.
+```
+**Data Inversion Principle**
+
+```bash
+javac Dip.java
+java Dip
+```
+
+**Expected Output**
+```bash
+Turning on the TV.
+Watching movie.
+
+Turning on the Projector.
+Watching movie.
+```
