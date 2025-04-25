@@ -1,11 +1,30 @@
-**this is for information expert**
-
+**Creator Pattern**
 ```bash
-javac Item.java ShoppingCart.java ShoppingCartTest.java
-
-java ShoppingCartTest
+javac Main2.java
+java Main2
 
 ```
+**Expected Output**
+```bash
+Title: The Great Gatsby, Author: F. Scott Fitzgerald
+Title: 1984, Author: George Orwell
+```
+
+**Information expert**
+
+```bash
+javac Item.java ShoppingCart.java 
+
+java ShoppingCart
+
+```
+**Expected Output**
+```bash
+Item: Laptop, Price: 999.99
+Item: Mouse, Price: 25.5
+Total Price: 1025.49
+```
+
 
 **demonstrating loose coupling**
 ```bash

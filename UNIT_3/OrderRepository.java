@@ -1,11 +1,8 @@
-import java.util.ArrayList;
 import java.util.List;
 
 public class OrderRepository {
-    private List<Order> orders = new ArrayList<>();
-
     public void saveOrder(Order order) {
-        orders.add(order);
-        System.out.println("Order saved: " + order);
+        System.out.println("Order saved for customer: " + order.getCustomer().getName() +
+                " with products: " + order.getProducts().stream().map(Product::getName).toList());
     }
 }

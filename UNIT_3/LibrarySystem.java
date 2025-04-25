@@ -2,8 +2,8 @@ import java.util.*;
 
 // Book class: Stores book details
 class Book {
-    private String name;
     private int id;
+    private String name;
 
     public Book(int id, String name) {
         this.id = id;
