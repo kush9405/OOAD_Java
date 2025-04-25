@@ -48,7 +48,7 @@ GRASP Principles Applied
 
 
 ```bash
-javac *.java
+javac -d . Main.java librarysystem/*.java
 java Main
 ```
 **Expected Output**

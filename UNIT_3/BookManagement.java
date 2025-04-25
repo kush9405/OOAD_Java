@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
 
+import librarydemo.Book;
+import librarydemo.Library;
+
 // Book class: Stores book details
 class Book {
     private int id;
