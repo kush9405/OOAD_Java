@@ -85,11 +85,13 @@ public class LibrarySystem {
         // Add books to the library
         Book b1 = new Book(10, "ICUP");
         Book b2 = new Book(100, "IC");
-        Book b3 = new Book(55, "C++ Programming");
+        Book b3 = new Book(101, "ICPU");
+        Book b4 = new Book(55, "C++ Programming");
 
         library.addBook(b1);
         library.addBook(b2);
         library.addBook(b3);
+        library.addBook(b4);
 
         // Create different search strategies
         SearchStrategy searchByName = new SearchByName();
@@ -106,6 +108,9 @@ public class LibrarySystem {
 
         // Search by substring (e.g., searching for "C++" should match "C++ Programming")
         val = library.search(searchBySubstring, "C++");
+        System.out.println(val == 0 ? "Book doesn't exist" : "Book ID: " + val);
+
+        val= library.search(searchBySubstring, "IC");
         System.out.println(val == 0 ? "Book doesn't exist" : "Book ID: " + val);
     }
 }
