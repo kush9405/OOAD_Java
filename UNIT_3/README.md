@@ -131,3 +131,79 @@ Watching movie.
 Turning on the Projector.
 Watching movie.
 ```
+
+**Singleton Pattern**
+```bash
+javac Printer.java Employee.java
+java Employee
+```
+
+**Expected Output**
+```bash
+Employee: John Doe
+Role: Software Engineer
+Assignment: Project A
+
+Pages printed today 1
+---------
+Employee: Jessica
+Role: Software Engineer
+Assignment: Project B
+
+Pages printed today 2
+---------
+```
+
+
+**Chain Of responsiblity**
+```bash
+javac ChainOfResponsibility.java 
+java ChainOfResponsibility
+```
+
+**Expected Output**
+```bash
+Invalid Amount. Amount should not exceed 25Lacs!
+Transaction for amount 50000.0 approved by Manager
+Transaction for amount 120000.0 approved by Vice President
+Transaction for amount 1500000.0 approved by CEO
+Invalid Amount. Amount should be › 0
+```
+
+
+**Command Pattern**
+```bash
+javac -d . Stocks/*.java
+java Stocks/CommandPatternDemo
+```
+
+**Expected Output**
+```bash
+Stock [ Name: ABC,  Quantity: 10 ] bought
+Stock [ Name: ABC,  Quantity: 10 ] sold
+```
+
+**Interpreter Pattern**
+```bash
+javac -d . Interpreter/*.java
+java Interpreter/InterpreterPatternExample
+```
+
+**Expected Output**
+```bash
+4
+```
+
+**Iterator Pattern**
+```bash
+javac -d . Iterator/*.java         
+java Iterator/IteratorRealWorldExample
+```
+
+**Expected Output**
+```bash
+Iterating over collection:
+Item 4
+Item 8
+```
+
