@@ -1,3 +1,4 @@
+// GRASP -controller
 package librarysystem;
 public class LibraryController {
     private Library library;

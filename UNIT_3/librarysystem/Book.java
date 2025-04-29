@@ -1,3 +1,4 @@
+// GRASP - Information Expert
 package librarysystem;
 public class Book {
     private String title;
