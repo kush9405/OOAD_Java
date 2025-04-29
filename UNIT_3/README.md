@@ -1,13 +1,12 @@
 **Creator Pattern**
 ```bash
-javac Main2.java
-java Main2
+javac Main1.java OrderService.java 
+java Main1
 
 ```
 **Expected Output**
 ```bash
-Title: The Great Gatsby, Author: F. Scott Fitzgerald
-Title: 1984, Author: George Orwell
+Order saved for customer: John Doe with products: [Laptop, Mouse]
 ```
 
 **Information expert**

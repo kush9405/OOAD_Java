@@ -58,3 +58,18 @@ class OrderRepository {
                 " with products: " + order.getProducts().stream().map(Product::getName).toList());
     }
 }
+
+public class OrderService {
+    private final OrderRepository orderRepository;
+
+    public OrderService(OrderRepository orderRepository) {
+        this.orderRepository = orderRepository;
+    }
+
+    public void createOrder(Customer customer, List<Product> products) {
+        // |/ Create a new order object
+        Order order = new Order(customer, products);
+        // I/ Save the order to the repository
+        orderRepository.saveOrder(order);
+    }
+}
