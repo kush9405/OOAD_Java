@@ -1,3 +1,4 @@
+// Low coupling
 class Traveler {
     private Vehicle v;
     public Vehicle getV() {

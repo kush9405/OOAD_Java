@@ -1,3 +1,4 @@
+// Creator pattern
 import java.util.List;
 
 // Represents a customer

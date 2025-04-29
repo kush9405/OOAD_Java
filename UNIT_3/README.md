@@ -6,7 +6,7 @@ java Main1
 ```
 **Expected Output**
 ```bash
-Order saved for customer: John Doe with products: [Laptop, Mouse]
+Order saved for customer: John Doe with products: /[Laptop, Mouse]
 ```
 
 **Information expert**
@@ -27,9 +27,7 @@ Total Price: 1025.49
 
 **demonstrating loose coupling**
 ```bash
-javac Traveler.java Vehicle.java
-
-java Traveler
+javac Traveler.java Vehicle.java & java Traveler
 ```
 
 **creating a simple system using GRASP**
@@ -178,8 +176,8 @@ java Stocks/CommandPatternDemo
 
 **Expected Output**
 ```bash
-Stock [ Name: ABC,  Quantity: 10 ] bought
-Stock [ Name: ABC,  Quantity: 10 ] sold
+Stock /[ Name: ABC,  Quantity: 10 ] bought
+Stock /[ Name: ABC,  Quantity: 10 ] sold
 ```
 
 **Interpreter Pattern**
